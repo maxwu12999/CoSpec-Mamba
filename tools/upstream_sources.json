@@ -1,0 +1,163 @@
+[
+  {
+    "repository": "Pancakerr/HybridSN",
+    "commit": "01b3ba919d1b3d8d15b132ff3e804ea0488ca08f",
+    "upstream_path": "HybridSN.ipynb",
+    "target": "external/vendor/hybridsn/HybridSN.ipynb",
+    "sha256": "89463f0eff0b8084131c2836e499d2daecc1e5a664b261d7ea0c4b8d72d95a82"
+  },
+  {
+    "repository": "Pancakerr/HybridSN",
+    "commit": "01b3ba919d1b3d8d15b132ff3e804ea0488ca08f",
+    "upstream_path": "LICENSE",
+    "target": "external/vendor/hybridsn/LICENSE",
+    "sha256": "24594e765103a1398cd918ca6506dd22a8669d92a4582acf6181bb5f6993c18c"
+  },
+  {
+    "repository": "Pancakerr/HybridSN",
+    "commit": "01b3ba919d1b3d8d15b132ff3e804ea0488ca08f",
+    "upstream_path": "README.md",
+    "target": "external/vendor/hybridsn/README.md",
+    "sha256": "25606c825c18ea62d0f5d7b26a44f12bc9e62e01c07d16fab43ce789d7685aa0"
+  },
+  {
+    "repository": "suvojit-0x55aa/A2S2K-ResNet",
+    "commit": "0bba673d6343bd147b0d29a93d3a4d7a9bc522d9",
+    "upstream_path": "A2S2KResNet/A2S2KResNet.py",
+    "target": "external/vendor/a2s2k/A2S2KResNet.py",
+    "sha256": "6867bf1d02324293d2443cb069cfd427815e1e8597195cbfbe1cad1ac043358d"
+  },
+  {
+    "repository": "suvojit-0x55aa/A2S2K-ResNet",
+    "commit": "0bba673d6343bd147b0d29a93d3a4d7a9bc522d9",
+    "upstream_path": "README.md",
+    "target": "external/vendor/a2s2k/README.md",
+    "sha256": "bcbe5d3c9648aefd436e350d3d5b8fdaa0fdf562b6ad80946fdb96241f5471b2"
+  },
+  {
+    "repository": "chenning0115/SQSFormer",
+    "commit": "4baf5d33254ca5fef56edbb25c0d2b04ae987f4d",
+    "upstream_path": "src/models/SQSFormer.py",
+    "target": "external/vendor/sqsformer/SQSFormer.py",
+    "sha256": "3da593096d111e65843ef17cbf05bd2416246ee750778940397b1cbdf9dd4532"
+  },
+  {
+    "repository": "chenning0115/SQSFormer",
+    "commit": "4baf5d33254ca5fef56edbb25c0d2b04ae987f4d",
+    "upstream_path": "src/params_use/sqsformer.json",
+    "target": "external/vendor/sqsformer/sqsformer.json",
+    "sha256": "42890a7ad93d6cd52bc20160abebfa82e49bb05f8842146c83992559bd1af937"
+  },
+  {
+    "repository": "chenning0115/SQSFormer",
+    "commit": "4baf5d33254ca5fef56edbb25c0d2b04ae987f4d",
+    "upstream_path": "README.md",
+    "target": "external/vendor/sqsformer/README.md",
+    "sha256": "55071a640854a31933adba81e1c1b444f46faeb0a68f9553ef5beb667fbdb8ec"
+  },
+  {
+    "repository": "flyzzie/TGRS-GSC-VIT",
+    "commit": "2ac8719321e1ef67238e9e8b77f934e604172085",
+    "upstream_path": "models/gscvit.py",
+    "target": "external/vendor/gscvit/gscvit.py",
+    "sha256": "1e7d7477bb8d032a54dd8bc5e914bc279e43149bfa55520cef2d95fe0a0a4887"
+  },
+  {
+    "repository": "flyzzie/TGRS-GSC-VIT",
+    "commit": "2ac8719321e1ef67238e9e8b77f934e604172085",
+    "upstream_path": "Readme.md",
+    "target": "external/vendor/gscvit/Readme.md",
+    "sha256": "4cf62b5dc81c3d907418637e9fea2eb22b426f5b56a0c7545c367255ada5a479"
+  },
+  {
+    "repository": "zhouweilian1904/Mamba-in-Mamba",
+    "commit": "ace0c0e1b1b7af7ade409a641a2134cdf699ce97",
+    "upstream_path": "my_models/MiM_v2.py",
+    "target": "external/vendor/mim/MiM_v2.py",
+    "sha256": "be56dd4f568d27b7de1458bad839d77f43637ea855d86a6477202d1e05daa978"
+  },
+  {
+    "repository": "zhouweilian1904/Mamba-in-Mamba",
+    "commit": "ace0c0e1b1b7af7ade409a641a2134cdf699ce97",
+    "upstream_path": "my_models/MiM_v3.py",
+    "target": "external/vendor/mim/MiM_v3.py",
+    "sha256": "e8b6cb8a892689b258d3534ac4d88a94af7ea98532aca6ffb7408cdf25e09146"
+  },
+  {
+    "repository": "zhouweilian1904/Mamba-in-Mamba",
+    "commit": "ace0c0e1b1b7af7ade409a641a2134cdf699ce97",
+    "upstream_path": "multiscan_v3.py",
+    "target": "external/vendor/mim/multiscan_v3.py",
+    "sha256": "090a6b9dee3dd46e6cfd6d6cf78c8c124450e2bf661c2f06d97745e74d435256"
+  },
+  {
+    "repository": "zhouweilian1904/Mamba-in-Mamba",
+    "commit": "ace0c0e1b1b7af7ade409a641a2134cdf699ce97",
+    "upstream_path": "README.md",
+    "target": "external/vendor/mim/README.md",
+    "sha256": "998b5f4e1f8fc71235724972bfd956ecaa4f9b5b3fe9d2fdf309950c8f8157e9"
+  },
+  {
+    "repository": "kyegomez/VisionMamba",
+    "commit": "c88e09a52240910e08c4af754d340ad946112487",
+    "upstream_path": "vision_mamba/model.py",
+    "target": "external/vendor/mim_dependencies/vision_model.py",
+    "sha256": "ab130b46d7a56d8a8fe9661a886e4ea80cba1cffbac0cf7d06f6667d0676c5a4"
+  },
+  {
+    "repository": "kyegomez/VisionMamba",
+    "commit": "c88e09a52240910e08c4af754d340ad946112487",
+    "upstream_path": "LICENSE",
+    "target": "external/vendor/mim_dependencies/VisionMamba_LICENSE",
+    "sha256": "187603d159fb72abba3b51626d70758b1fdcc7c8ecd3db99235aca8c28d6e6c6"
+  },
+  {
+    "repository": "kyegomez/zeta",
+    "commit": "fe82c50e0f738ff6b4ae37ea4f3af6631b880c74",
+    "upstream_path": "zeta/nn/modules/ssm.py",
+    "target": "external/vendor/mim_dependencies/ssm.py",
+    "sha256": "030d5354d3a718721b51606ed72108699542ea17812930715922afcad3e9b71a"
+  },
+  {
+    "repository": "kyegomez/zeta",
+    "commit": "fe82c50e0f738ff6b4ae37ea4f3af6631b880c74",
+    "upstream_path": "LICENSE",
+    "target": "external/vendor/mim_dependencies/zeta_LICENSE",
+    "sha256": "58188f76d60dd0f95daa827fffddac9a51f79dc7d9d1efd16bf3fcbdcf7cdd9c"
+  },
+  {
+    "repository": "kyegomez/zeta",
+    "commit": "fe82c50e0f738ff6b4ae37ea4f3af6631b880c74",
+    "upstream_path": "zeta/nn/modules/p_scan.py",
+    "target": "external/vendor/mim_dependencies/zeta_pscan.py",
+    "sha256": "d54e4470adc4fa967d3aaafbbbb1d5d13d42f2456831ceec0ed46522cdd31573"
+  },
+  {
+    "repository": "alxndrTL/mamba.py",
+    "commit": "5c4136c2c28bc10d5d6655aa81b7a60051b50f00",
+    "upstream_path": "mambapy/pscan.py",
+    "target": "external/vendor/mim_dependencies/pscan.py",
+    "sha256": "51cd34493a95aa08cdfa5d25465edda7df3e6fa5cec98eb32d22448da2427ebe"
+  },
+  {
+    "repository": "alxndrTL/mamba.py",
+    "commit": "5c4136c2c28bc10d5d6655aa81b7a60051b50f00",
+    "upstream_path": "LICENSE",
+    "target": "external/vendor/mim_dependencies/pscan_LICENSE",
+    "sha256": "011235acc8c9b140ed6013f9b855e82d24c855dbe7f26c4632ab9c9b969add37"
+  },
+  {
+    "repository": "zhysess/ConvMamba",
+    "commit": "aa71fe5ab9abe4606383df0c773941a142ee59fe",
+    "upstream_path": "src/models/ConvMamba.py",
+    "target": "suite/vendor/convmamba/ConvMamba.py",
+    "sha256": "05856dda301a486b3247db621cfd7622f647f2847fbd88f1f778e73dc752282f"
+  },
+  {
+    "repository": "zhysess/ConvMamba",
+    "commit": "aa71fe5ab9abe4606383df0c773941a142ee59fe",
+    "upstream_path": "src/models/pipeline.py",
+    "target": "suite/vendor/convmamba/pipeline.py",
+    "sha256": "de0f671ed2ee734d7899b8e70b4b1248a21ce27fc6afba194e2f654a284a704c"
+  }
+]

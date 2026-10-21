@@ -1,0 +1,72 @@
+{
+  "parent_source_sha256": "40a0f0ccaa744c3d0c748caacda4a53f0718d6c3a4a0429a26d70ff9e1c2f841",
+  "parent_protocol_id": "3812432c7c2e0e1263921712ca2606756c1fe826a2e0a2c7d59271fd815bf9b4",
+  "train": {
+    "epochs": 100,
+    "batch": 32,
+    "eval_batch": 128,
+    "lr": 0.001,
+    "lr_policy": "constant",
+    "optimizer": "Adam",
+    "weight_decay": 0.0,
+    "clip": 15.0,
+    "two_view_ce": true,
+    "min_keep": 0.6,
+    "max_keep": 0.9
+  },
+  "backend": {
+    "suite": "cuda",
+    "external": "cuda_fused"
+  },
+  "model_options": {
+    "dim": 64,
+    "depth": 4,
+    "basis": 64,
+    "scan": "snake4"
+  },
+  "data_identity": {
+    "HongHu": {
+      "data_id": "d0b7b892821c8db41f0825f2ddb6c6d5384be77f3ac5376ec2468a24e29c1770",
+      "cache_sha256": {
+        "cube.npy": "e855e82fa8c719d06c0b7a7549df22eacc9c6cb5c5360382345c23c3fce85ed4",
+        "tr.npy": "003805b3b835c4b85d2a527a7f2bcecc77ebf4f3d40ae89553ec2d6d6be021f8",
+        "te.npy": "bc3d8dfa6d8996cb95ae1358ec8ee83c2692f0530cb2ca587e33961a9c6f140c",
+        "wave.npy": "8e7d186f9f915c0472b6a214945c90e5c9479ba25f9905a921147f848bf5b124",
+        "stats.npz": "fd5dee20e5eeab44e6f197435650f458c2af1d5edd5d92db5758a9883f612fe4"
+      },
+      "cases": [
+        "08b7a5efba9f3a04aef2f2cacac0023bf0f844cbf644ca01d5a9ca0bd93c347c",
+        "907ce13f695a89aab74124b8c9feabaff19fa6476169fb4d14a4619a4ce6ab0a",
+        "c6923b31d432f5288ddc63ed6eb647acd931f5c11d9d60da2dc57f267408ad6c",
+        "4a5f08c99e75f2d97904af783481ee81492c140773d6b6c99fb48770b85f0000",
+        "7669810ddfbcb544423b9f649f685bfdb29e8581948a17c445af7a58cd534f07",
+        "a77c025b74796153001de3ef94b82fb46d2750e820139d6424f97f1dfd5bc0b7",
+        "9d38926ea1ff9a743e06ed3cdf358d7dd983a7a955bdbb2fe1ff6e80f60f7953",
+        "05dde592a5286f2a9829335afaa512f5a133beab3cc3d48a399e1defe6cca305",
+        "1c71fb6a51183ee64b15e90fe29ba5dc6a5071b3b8fb899ff1670564a19d8bff",
+        "26abb40356c5773264af55b35e75e67fc103e64cc4508691c102e984c5ce53bd",
+        "f0414025d920ae38ccd0fb0159a0748e3b59657eeea25dcc8811efdc27889f7c",
+        "ce23f8133e8d5c99caff935849f0c5760593920a42d10788a1f8d3fb6e37617b",
+        "54ff6d31105dbde7a40ac548a54794b40c944f979cf63fadcfe2eeeea1bbe0e9",
+        "008b7383529825e69fc1016a5947b2f36f10049f1b759590f591331927789c62",
+        "d0d52f60da3fd8c1f4f683926f714d9ee644cc23d3c3eca28859d5cbb41d06f3",
+        "094a68b3d85e8db5d2bf0681b6170dc0961314faf3a1e0b5286af01134869cb5"
+      ]
+    }
+  },
+  "unchanged_files": {
+    "worker.py": "98ffa9ab70682083b69234ff8e1084731893a4ac689a40d13101e55b45b9f00b",
+    "models.py": "15d627bbb02445b96970675949960fc6a25a424fcb949653a129d4e3b707de8a",
+    "data.py": "b48c844850c096b784c4c3fcce911a5cacc4b7d7c814c3885567d120e6cc5a64",
+    "results.py": "d7ca97c4588e823fe5e83fde04bb193e853e693912afc3d12cd9fe3c368aa66c",
+    "exports.py": "6b5aad5f1afdec6bd9745601dabfba7fdfe71a9c8dd8cab3806a33387cf016b1",
+    "FROZEN_SHA256.json": "98c163678299e2b2cb03d1a8ba1d70ae60f158c05c5c9eb1a0b2aad19c335966",
+    "REFERENCE_DATA.json": "6172fd982e038c83cf8f6aecaf0fc5bd00e845bee46865130c9cf5da4bd65375",
+    "ORIGINAL_PLANS.json": "1d499075a7619a82cd261ebaafa2607887e29a955b4448690a50d1d9104cbc21"
+  },
+  "archived_speedup_revision": "9bc02f04314ea1a725b12a6ab1582c343e470106e9bc4dc459dbe5cc39af06a5",
+  "speedup_files": {
+    "speed_data.py": "9d1417ffa23b585781d5a10b3fc2dfdbe76fbf5a8ecaec16e13ea64db0c08ea1",
+    "speed_eval.py": "9db22f4bc534a4685915c0f3a70626ff00b07b2ac10d5de65a8610bfcb1746c4"
+  }
+}

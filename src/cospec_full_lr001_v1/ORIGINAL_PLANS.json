@@ -1,0 +1,1026 @@
+{
+  "COSPEC_SUITE_V1": [
+    {
+      "dataset": "HongHu",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "C",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "C",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "C",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_structure",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_structure",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_structure",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_row",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_row",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_row",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_raster4",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_raster4",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_raster4",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_random4",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_random4",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_random4",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "C",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "C",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "C",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_structure",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_structure",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_structure",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_row",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_row",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_row",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_raster4",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_raster4",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_raster4",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_random4",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_random4",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_random4",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "D",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "D",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "D",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "D",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "ConvMamba_aug",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "ConvMamba_aug",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "ConvMamba_aug",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "B",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "B",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "B",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "D",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "D",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "D",
+      "seed": 3
+    }
+  ],
+  "COSPEC_EXTERNAL_V1": [
+    {
+      "dataset": "HongHu",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "HongHu",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "HongHu",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "HongHu",
+      "model": "MiM_v2",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "MiM_v2",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "MiM_v2",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "Houston",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "Houston",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "Houston",
+      "model": "MiM_v2",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "MiM_v2",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "HybridSN",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "HybridSN",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "HybridSN",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "A2S2K",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "A2S2K",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "A2S2K",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "SQSFormer",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "SQSFormer",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "SQSFormer",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "GSCViT",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "GSCViT",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "GSCViT",
+      "seed": 3
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 1
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 2
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 3
+    }
+  ]
+}
