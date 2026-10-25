@@ -1,0 +1,482 @@
+[
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "2efb6cf4e815ea24d3e7c7e87060dd3d1c5943208baf09cdc18349c3e813e74b",
+    "model_sha256": "786c3c8e51073be75d2f78bd4ead38376f06294749955820b87a9df0023938d0",
+    "initial_state_sha256": "944805283ab580c3ba1f9b58f70a114cb5b5be5f678071ffbc591c9ab7e6c6af",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "LS",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "06f1a660782120edca0fb127af6bf242021af314896560bde8957fa6d16c96c6",
+    "model_sha256": "1ab3fa5c7886841b6c228509ab0182c0e054e6e57b888ae65e7f8c091e1c1a1d",
+    "initial_state_sha256": "6a57f320970a89f00017d6566105890b83dbf5105bc965eac28757e6a7c8bdab",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "R",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "2e0673f532748654d946108306ff5260cf75e31649d3bb91e77c5f518ff27f76",
+    "model_sha256": "4d5075adfea0b2d9a90a020865605270e1a8a6d8623c7b9f14a98b5b02359360",
+    "initial_state_sha256": "6a57f320970a89f00017d6566105890b83dbf5105bc965eac28757e6a7c8bdab",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "RDelta",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "b05b336252b1285aa59f5fdd0846145e8cb988c0b3392b509f55915cd498614f",
+    "model_sha256": "f51433d69f6df61d9c591d555b99750d71408d0b0028d9c6855328a5960e7d2a",
+    "initial_state_sha256": "421df6e93aa94f15bc9de6f6aaae5ffacc74253d8efc30af13470462002dd403",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "666fb9180276151b1adac7e09b7d1c03914e80cc9fb42c8174e7f5e32da63a2e",
+    "model_sha256": "00d45435dac83e0f07f13f2b711fe50f70ce0404bcae4860f2251e315f8c3f65",
+    "initial_state_sha256": "421df6e93aa94f15bc9de6f6aaae5ffacc74253d8efc30af13470462002dd403",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "dfa0d25de2e8907331674cb8aceefb4abbec342dfc74568ea1a6455dfdcab81f",
+    "model_sha256": "127f90600f68d986ec087712ec88c22b461505514f7adf73d3b34c59f60465df",
+    "initial_state_sha256": "a30eed603e543a2896885f32b1e26465049229e536ead07633c87a39cd05ebd6",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "LS",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "aabbda721b44380b63f5e1315d06b1804af3e650ca757d0c9026217c7e61c245",
+    "model_sha256": "506bf7c6b8ea65a319ae8dc07bd96ec3d0ded8fd0f884806965a80ee4999ab0f",
+    "initial_state_sha256": "ae3f0c12f2733b2485d6476f7fd257bf0f85af219f1bcaa820e0864a43119e6d",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "R",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "0b0980402691e77f66fe0e992abd491d9decc4790d94a432ff8b54007ea675e7",
+    "model_sha256": "dadf8e0904fe19ecbcdd7240a48eae1db9aa08ca0f59f2e5850558359d760352",
+    "initial_state_sha256": "ae3f0c12f2733b2485d6476f7fd257bf0f85af219f1bcaa820e0864a43119e6d",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "RDelta",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "69443ea0ef1645b01656efc5bb3cf6c3b39a82133470b72b7c59d04ad3963a4b",
+    "model_sha256": "186db88692a13ded47798ec0e38d4e55dbdd699353793845a16c04e35524d3f5",
+    "initial_state_sha256": "b08f04d1889892ba7406ecd0a1736dcba6ced983afeb2dbb613fa1958e5bafa1",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "98695631c4bed174ef8bd3b75d29c2bf99964bffa4836ab1a54272c4530d5422",
+    "model_sha256": "378fb7edbda229f64f183a97ac957bf1bf5df63c4fe7b6be088d08c98f3e118c",
+    "initial_state_sha256": "b08f04d1889892ba7406ecd0a1736dcba6ced983afeb2dbb613fa1958e5bafa1",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "a44fdb52265de8c799ea963479029a32328aabb9934a6a6103a1c21b309c9a10",
+    "model_sha256": "f5297b74f46ceca0bd32399778254a1f73ab05b8bc58a9f7d545295499522e67",
+    "initial_state_sha256": "d12d73652cb1f92310660295acdcbe82caeccab36e4c8164078b04be8a0fe201",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "LS",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "2c734462db8ff8ccc028657d93deb52f7d5c498af0a8d5449aad42cf50bd14b9",
+    "model_sha256": "f3ed66b742ff1e25850f2ae651cfe6a6eb1b48ddd738ae9db3b8fe9f215f7a62",
+    "initial_state_sha256": "b532e144d63a9f6b5529e1d7ac9c50f4b6f5df1bd3973b407a88783fc31b29e6",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "R",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "c8c6438ce1e24502df362b54f35b39f39ef3e37c2d4d163235b2f568ea7bcae8",
+    "model_sha256": "e88dd27405ead402187c6f2c02a521ee3ab351fba1831e3b595a492a8c9b3c1a",
+    "initial_state_sha256": "b532e144d63a9f6b5529e1d7ac9c50f4b6f5df1bd3973b407a88783fc31b29e6",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "RDelta",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "26e3b170979f2dfc275c9ac2c9f169a0753aacb88625f975d95c82f32664ee10",
+    "model_sha256": "e856489523c3da6bb8658e63475498050d58c3b70d3c47e2b0ca54f5c72c38a7",
+    "initial_state_sha256": "c274849c68486b1cd231601a3a471e6dc73ec1dd334577ae34a03aa7ad6fec7c",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "8d056e4afd7f8c1d22dd239a581953668428c86fc02eddaedf77c9d6c2df0c7e",
+    "model_sha256": "433ba86c1b66502766e0a22e3e13b59dfe5e3eaf1b080a1ef69ab161287a9874",
+    "initial_state_sha256": "c274849c68486b1cd231601a3a471e6dc73ec1dd334577ae34a03aa7ad6fec7c",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "ee63e105a7913673f862b3a2d92f630ff6c3b794aba705b4da4fa6eaf60d8ee8",
+    "model_sha256": "6600047d1269542731822847bbba55305aa8d52cc220023f7fdeffb8c9a6c74a",
+    "initial_state_sha256": "759443c3e6c3fc5c8753088d1ba8e19cac85a7534bdb344b80cc40b8c13250c1",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "LS",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "5aa52320ad4f42d4ecc806d564f71a83955f85d413072d4d53160bd6d47650b1",
+    "model_sha256": "377524509141749be03ba3f6f4fb2e239d2be208beef7f1520c7ad99ada51cf8",
+    "initial_state_sha256": "1f296e873ad90b736be556996f4063372838f6cbce56345997e63a609d3fdd6e",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "R",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "ff7412306ca2729cded20cda4e44f0d438519954887ec0d063f58efe5e2aa100",
+    "model_sha256": "d153aaa6d9447f5cbb2987700f2723ae952bf36d1f8184e3a7b0b2d615e32da0",
+    "initial_state_sha256": "1f296e873ad90b736be556996f4063372838f6cbce56345997e63a609d3fdd6e",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "RDelta",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "8e833ef3d02b710f3d3375fc05e1dfe85c5a90b506df464ce8fb416757c83446",
+    "model_sha256": "36612a69ef28a9415cfa79971b495b586c17a87095d426ee6c626164cb897905",
+    "initial_state_sha256": "ac7155bdbdef2b1a4fe56793bb3a12d0a5533768c7b48b5d2ac2adda0c3140bc",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "84cf6a6b8ff53e4ecb3c7fb36f6129b66c24524c98875462e3b79a6e2ead0233",
+    "model_sha256": "9e1a0fc13763509f0a820faff42532cd732085e186badd4d8436d2500486e0be",
+    "initial_state_sha256": "ac7155bdbdef2b1a4fe56793bb3a12d0a5533768c7b48b5d2ac2adda0c3140bc",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "b8828310b2ca17de9761f8e003e09f9d43b6c690bdfa81ebb228541636961c07",
+    "model_sha256": "681766238de67f5163d2d4b69f3bd6dcf59a834e417de677fd192ca1137c5917",
+    "initial_state_sha256": "745b13618194caddd9624c5221bbe9fff2bdc9daaaa17d44fa28164481100f31",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "LS",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "41b93745b46abc55d4b639d3258bda18f95ef30d97ef8b5e4d172453bcd774df",
+    "model_sha256": "54d54eee7014942a88b601f52b58e6351a7e44d2a020a85782044ead4704e129",
+    "initial_state_sha256": "19ae48bc1b7a254925e85d084b8e26531d29f09291c86df1717145739b2f77db",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "R",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "b5e971fc69ad181c41bb1f2045bb313e165f1b5ead8b8f9eff2f1641e8feddad",
+    "model_sha256": "92bb1d2955f53111366756d3808b9afac1b5b3f7f4cc2a447c569348b3a1c820",
+    "initial_state_sha256": "19ae48bc1b7a254925e85d084b8e26531d29f09291c86df1717145739b2f77db",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "RDelta",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "b7e5e138a409055eee71df2c4a153691c2c4e6ee7d987cb00ab6c7c01f922ffa",
+    "model_sha256": "5b047f317f6dc6a9631fb92421c557f6b6533e8bc965edcb255cf264dfa300e9",
+    "initial_state_sha256": "b52d5ac32605159164779d17eb41b5b9d7110d92f3b91be36917d8f315d5940f",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "0148d0e81aa801e26f85e1ce04e4d7791aa909815565388efe2a9a3adfece284",
+    "model_sha256": "206a1d6206c526c317299523bb41f8cf05eaa8121e4b9f8f62bbd96a59e536ea",
+    "initial_state_sha256": "b52d5ac32605159164779d17eb41b5b9d7110d92f3b91be36917d8f315d5940f",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "d5cbe7b0af7bc96bc2cc97dbe5718e9dccdb941c231c5e8f440ac43119ae6cee",
+    "model_sha256": "fb757bcf160a35a941f7006476d1fc73b4a3bd926f1a660f97c763fb160a7f12",
+    "initial_state_sha256": "19f5ac7ac4e31f6a6312333b40fd144e50d540e48811b9f4ebcd86980143e753",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "LS",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "49e567533e9430a9eec7e2e7417c10bd342181273bb4fd9b76e2da9b54f4006f",
+    "model_sha256": "168934f75832ec61c5acf99496591ade5819edec792250c309d7e4e443c977a7",
+    "initial_state_sha256": "f4a798adf5b04d14c308c37775dc2240ba05f340807ee3abf11391e42e91e7d7",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "R",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "60bc6611b71eb5406cb1aeb3baea895b06fb78ecab95a3b787f6b60e64de6a58",
+    "model_sha256": "5d25de6115a34baad4e4b1ea019a94780bd23dc3c204f6f539f0ea78f3ade8b6",
+    "initial_state_sha256": "f4a798adf5b04d14c308c37775dc2240ba05f340807ee3abf11391e42e91e7d7",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "RDelta",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "7bf821d839f47df4d72096d9275f2f470d55c50458f2d2419cc23b9fb70f5b1e",
+    "model_sha256": "a9b608704c1f96a8dc7f6ca97c288d090812c1aa5e83a13bdc5131b56d5bd5b0",
+    "initial_state_sha256": "d8c0bcd0a4ca860656823b4f6cbd530324950ea118b8b74e33f170ff20644c77",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  },
+  {
+    "job": {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "internal_components"
+    },
+    "scope": "formal",
+    "completed_epochs": 100,
+    "recipe_id": "57dd1e17cbe1b92ef687dc0ebedfd5e3ed119d410232a87ccc4583cf0b0bd9ce",
+    "model_sha256": "612e980960ee21fe23f903dd1a7039513c484025cb9b2cdea4ed92777dfece3c",
+    "initial_state_sha256": "d8c0bcd0a4ca860656823b4f6cbd530324950ea118b8b74e33f170ff20644c77",
+    "source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+    "lr_policy": "constant_0.001"
+  }
+]

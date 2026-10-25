@@ -1,0 +1,12 @@
+{
+  "scope": "synthetic_implementation_checks_only",
+  "torch": "2.5.1+cpu",
+  "numpy": "2.3.5",
+  "device": "cpu",
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "formal_accuracy_experiments_run": false,
+  "cuda_kernel_tested": false
+}

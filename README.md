@@ -78,6 +78,22 @@ Each task uses 100 epochs and 16 evaluation conditions: full spectrum, then
 These percentages refer to **observed spectral bands**, not training samples.
 20% and 10% are evaluation-only conditions and do not add training jobs.
 
+## Additional internal spectral-encoding ablation
+
+The v18 manuscript adds 30 independent internal-ablation runs: HongHu/PaviaU ×
+B, LS, R, RDelta and D × seeds 1/2/3. The original training implementation,
+completed per-mask results, and a no-training Table 6 reconstruction script are
+now included. See [docs/INTERNAL_ABLATION.md](docs/INTERNAL_ABLATION.md).
+
+```bash
+# Rebuild v18 Table 6 from recorded results; no GPU or raw scene is needed.
+python tools/summarize_internal_results.py
+```
+
+The table export contains full/80%/60%/40% results. The 20%/10% evaluations remain
+in the underlying records. This independently retrained batch is separate from
+the older full-queue B/D results.
+
 ## Restore external model sources
 
 Third-party sources are fetched from pinned upstream commits and checked against
@@ -100,7 +116,9 @@ split, which are **not distributed in this code repository**. They deliberately
 reject a different split or modified cache. The required files, coordinate
 conventions and checksums are documented in
 [docs/DATA.md](docs/DATA.md). Model weights, raw scenes, personal run logs and
-the manuscript are not included.
+the manuscript are not included. Exact split artifact export and verified cache
+restoration are supported by `tools/reference_artifacts.py`; the original
+TR/TE artifact files themselves are still pending distribution.
 
 Activate your CUDA environment, then run from this repository's root:
 
@@ -155,6 +173,8 @@ cospec/                         Public model import
 src/cospec_full_lr001_v1/        Frozen scientific core and full queue
 src/cospec_speedup_v1/           Archived runtime acceleration
 src/cospec_window_lr001_v1/      Fixed-LR 7×7 and 11×11 rerun
+src/cospec_internal_ablation_v1/ Independent five-variant internal-ablation queue
+results/internal_v1/            Recorded metrics and reconstructed Table 6
 src/cospec_mim_recover.py        Audited MiM numerical-boundary recovery
 src/cospec_window_local.py       WSL/laptop preflight adaptation
 tools/                          Pinned upstream source restoration

@@ -68,3 +68,45 @@ same band ordering. Every model and training seed sees the same test masks.
 Training uses a separate mask generator and excludes the test masks. Deleting
 bands never changes the number of training centers.
 
+
+## Original split artifacts and cache preparation
+
+**Remaining requirement:** the exact original `tr.npy`/`te.npy` files and the
+associated coordinate/statistic artifacts are not included in this repository.
+Metadata hashes alone cannot recover their pixel locations. The included
+result archive also contains no split arrays. The export/restore utility below
+does not remove this requirement and never substitutes a new random split.
+
+On the machine that has the original `COSPEC_SUITE_V1` cache, export its exact
+small artifacts without the normalized scene cube:
+
+```bash
+python tools/reference_artifacts.py export \
+  --reference /path/to/COSPEC_SUITE_V1 \
+  --output /path/to/paper_reference_artifacts
+```
+
+Export validates all five cache hashes against the published reference
+identities before writing. It copies `tr.npy`, `te.npy`, `wave.npy`, `stats.npz`
+and `data.json` for each dataset, plus `ARTIFACTS.json`. The exported original
+artifacts must subsequently be distributed with the code or a linked archive.
+Do not replace them with the synthetic fixtures used in tests.
+
+Once those artifacts and the original raw public scene are available, restore
+a cache one dataset at a time:
+
+```bash
+python tools/reference_artifacts.py restore \
+  --artifacts /path/to/paper_reference_artifacts \
+  --dataset PaviaU --raw /path/to/PaviaU.mat --mat-key paviaU \
+  --output /path/to/COSPEC_SUITE_V1
+```
+
+An H×W×C raw `.npy` is also supported, without `--mat-key`. MAT loading uses
+SciPy's non-HDF5 MAT reader. Preserve the exact original spectral band order
+and band filtering. Restoration uses the recorded training-only global mean
+and scale and the original class statistics; it does not refit using the scene
+or test labels. All recreated cache files must match the published SHA-256
+values before the destination becomes usable. A different raw-data variant or
+numerical result is rejected rather than accepted as an exact paper replay.
+Existing export/cache directories are never overwritten.

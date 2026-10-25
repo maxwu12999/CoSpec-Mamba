@@ -1,0 +1,21 @@
+{
+  "source_archive_name": "COSPEC_INTERNAL_V1_results.zip",
+  "source_archive_sha256": "36b019b02b3ed4fc5cdc454ec19dd4caa5ae3512d518b74cd805a47b5bee7357",
+  "training_runs": 30,
+  "evaluated_conditions": 480,
+  "epochs_per_run": 100,
+  "recorded_scientific_source_sha256": "28efd857c36a307dd550d2c6de9b95d057be2b4c54d7a5e53b59f24212662d56",
+  "source_values_preserved": true,
+  "manuscript": "v18 Section 3.2.3 Table 6",
+  "manuscript_fractions": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "supplementary_fractions": [
+    0.2,
+    0.1
+  ],
+  "checks": "Each result matched its original per-case metrics; OA recomputed from confusion counts; masks matched the recorded protocol."
+}

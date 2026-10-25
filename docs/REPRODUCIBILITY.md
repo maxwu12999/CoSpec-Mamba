@@ -87,3 +87,30 @@ Raw scenes, checkpoints, manuscript files, private runtime logs and credentials
 are excluded from version control. `RELEASE_MANIFEST.json` provides SHA-256
 for the committed release files, excluding itself.
 
+
+## Added independent internal-ablation batch
+
+`src/cospec_internal_ablation_v1/` contains the unchanged original scientific
+Python files used for the 30-run internal experiment. Its own archived-source
+checks and package manifest are preserved. Current manuscript numbering is
+Section 3.2.3 and Table 6; the earlier Chinese package documentation records
+its original v16 numbering.
+
+`results/internal_v1/PROVENANCE.json` identifies the completed result archive.
+The export contains 480 per-mask metric records and 30 completed-run identities.
+OA values were checked against the original confusion counts before export;
+all recorded test-mask hashes matched the experiment protocol. Results include
+all six retention fractions, while the manuscript-table exporter selects four.
+
+```bash
+python tools/summarize_internal_results.py
+python src/cospec_internal_ablation_v1/self_check.py
+python -m unittest discover -s tests -v
+```
+
+The aggregation command checks run/condition completeness, shared masks and
+within-seed aggregation. The internal CPU checks cover SVD and ridge equations,
+constrained versus unconstrained correction, initialization matching and
+train/test continuation. These implementation checks do not rerun the formal
+100-epoch CUDA experiments. Original split artifacts remain a separate pending
+release item documented in `DATA.md`.

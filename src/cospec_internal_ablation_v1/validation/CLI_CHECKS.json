@@ -1,0 +1,21 @@
+{
+  "scope": "synthetic_software_integration_only",
+  "datasets": 2,
+  "variants": [
+    "B",
+    "LS",
+    "R",
+    "RDelta",
+    "D"
+  ],
+  "training_seeds": [
+    1
+  ],
+  "completed_tasks": 10,
+  "epochs_per_task": 2,
+  "test_cases_per_task": 16,
+  "train_test_summary_export_passed": true,
+  "relaunch_skips_completed_tasks": true,
+  "formal_HongHu_PaviaU_accuracy_experiments_run": false,
+  "cuda_kernel_tested": false
+}

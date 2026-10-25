@@ -1,0 +1,21 @@
+{
+  "package": "COSPEC_INTERNAL_V1",
+  "manuscript": "CoSpec_Mamba_中文论文初稿_v16_插图与实验预留.docx",
+  "section": "3.2.2",
+  "table": "6",
+  "archive": "CoSpec-Mamba_open_source_20261021.zip",
+  "archive_sha256": "48ec3b1266cb705bbbcbb4f4e5249e30000170e4cf8508a4dd6924e91c988e3e",
+  "archived_files_manifest": "ARCHIVED_SHA256.json",
+  "training_protocol": "100 epochs Adam lr=0.001; shared archived split and masks",
+  "default_training_jobs": 30,
+  "default_datasets": [
+    "HongHu",
+    "PaviaU"
+  ],
+  "default_seeds": [
+    1,
+    2,
+    3
+  ],
+  "formal_results_included": false
+}

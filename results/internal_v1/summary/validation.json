@@ -1,0 +1,13 @@
+{
+  "training_runs": 30,
+  "per_mask_records": 480,
+  "masks_averaged_within_seed": true,
+  "standard_deviation_ddof": 1,
+  "manuscript_retention_fractions": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "source_sha256": "296e25589a73fff51ec40a265c876131a427377e6d5648be67b9dd686dc861f7"
+}
