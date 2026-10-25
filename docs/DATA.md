@@ -1,7 +1,8 @@
 # Data contract
 
 The full paper queue consumes an existing prepared cache, not a new random
-split. Raw scenes, labels and trained weights are not redistributed here.
+split. Raw scene cubes and trained weights are not redistributed here. Original
+TR/TE split labels, coordinates and statistics are distributed separately below.
 Obtain source datasets under their providers' terms and preserve the specified
 band order and original TR/TE split. Different splits are separate experiments.
 
@@ -71,11 +72,19 @@ bands never changes the number of training centers.
 
 ## Original split artifacts and cache preparation
 
-**Remaining requirement:** the exact original `tr.npy`/`te.npy` files and the
-associated coordinate/statistic artifacts are not included in this repository.
-Metadata hashes alone cannot recover their pixel locations. The included
-result archive also contains no split arrays. The export/restore utility below
-does not remove this requirement and never substitutes a new random split.
+The exact original split, coordinate and statistic files for all seven public
+datasets are now distributed in
+[`data/reference/paper_reference_artifacts.zip`](../data/reference/paper_reference_artifacts.zip).
+All 35 original file payloads are preserved, and the array hashes match the
+archived reference identities. Extract the archive before using `restore`:
+
+```bash
+python -m zipfile -e data/reference/paper_reference_artifacts.zip /path/to/paper_reference_artifacts
+```
+
+The ZIP includes `ARTIFACTS.json`; a separate copy and provenance hashes are in
+`data/reference/`. Raw public scenes must still be obtained separately. The
+restoration tool never substitutes a new random split.
 
 On the machine that has the original `COSPEC_SUITE_V1` cache, export its exact
 small artifacts without the normalized scene cube:
@@ -88,8 +97,8 @@ python tools/reference_artifacts.py export \
 
 Export validates all five cache hashes against the published reference
 identities before writing. It copies `tr.npy`, `te.npy`, `wave.npy`, `stats.npz`
-and `data.json` for each dataset, plus `ARTIFACTS.json`. The exported original
-artifacts must subsequently be distributed with the code or a linked archive.
+and `data.json` for each dataset, plus `ARTIFACTS.json`. The published archive above already supplies these original artifacts; this
+export command is available to validate or re-export the source cache.
 Do not replace them with the synthetic fixtures used in tests.
 
 Once those artifacts and the original raw public scene are available, restore

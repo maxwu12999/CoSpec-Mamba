@@ -112,5 +112,7 @@ The aggregation command checks run/condition completeness, shared masks and
 within-seed aggregation. The internal CPU checks cover SVD and ridge equations,
 constrained versus unconstrained correction, initialization matching and
 train/test continuation. These implementation checks do not rerun the formal
-100-epoch CUDA experiments. Original split artifacts remain a separate pending
-release item documented in `DATA.md`.
+100-epoch CUDA experiments. Original split artifacts for all seven datasets are
+now included in `data/reference/paper_reference_artifacts.zip`, with checksums
+and provenance. Their hashes match the archived paper reference identities;
+see `DATA.md` for reconstruction of the image caches from the original scenes.

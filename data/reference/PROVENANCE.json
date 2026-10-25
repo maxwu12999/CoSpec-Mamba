@@ -1,0 +1,11 @@
+{
+  "source_archive": "cospec_reference_artifacts.zip",
+  "source_sha256": "4cbafe9817ed8eabf3ab2407a15024a339c42aec6522d9d403f791267c228dfd",
+  "published_archive": "paper_reference_artifacts.zip",
+  "published_sha256": "dcabc40cf65396b6c61e77ba501391c8215593cd70da352f48560f9d14f71d0c",
+  "original_files": 35,
+  "datasets": 7,
+  "original_file_bytes_preserved": true,
+  "checks": "All split, coordinate and statistic file hashes match the archived REFERENCE_DATA.json; data IDs, shapes, training/test counts and center exclusivity verified.",
+  "contents": "Original TR/TE labels, spectral coordinates, training-only class statistics and data identity metadata. No raw or normalized image cube."
+}

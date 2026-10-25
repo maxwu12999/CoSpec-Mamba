@@ -43,7 +43,7 @@ bash src/cospec_internal_ablation_v1/start.sh \
 ```
 
 The reference directory must contain the original hash-verified caches. See
-[DATA.md](DATA.md) for the data contract and remaining split-artifact requirement.
+[DATA.md](DATA.md) for the data contract, published original split artifacts and cache restoration.
 Dependencies are not installed or upgraded by this runner. A CPU implementation
 check is separate from the completed formal GPU experiments.
 

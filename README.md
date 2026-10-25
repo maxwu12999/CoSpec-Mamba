@@ -111,14 +111,16 @@ The downloader only retrieves source bytes; it does not run upstream programs.
 
 ## Reproduce the archived experiment queues
 
-The archived runners expect the original prepared data caches and fixed TR/TE
-split, which are **not distributed in this code repository**. They deliberately
+The archived runners expect the original prepared image caches, which are
+**not distributed in this code repository**. Their original TR/TE split labels,
+coordinates and statistics are distributed in the artifact archive linked below. They deliberately
 reject a different split or modified cache. The required files, coordinate
 conventions and checksums are documented in
 [docs/DATA.md](docs/DATA.md). Model weights, raw scenes, personal run logs and
 the manuscript are not included. Exact split artifact export and verified cache
-restoration are supported by `tools/reference_artifacts.py`; the original
-TR/TE artifact files themselves are still pending distribution.
+restoration are supported by `tools/reference_artifacts.py`. The original
+TR/TE, coordinate and statistic files for all seven datasets are available in
+[data/reference/paper_reference_artifacts.zip](data/reference/paper_reference_artifacts.zip).
 
 Activate your CUDA environment, then run from this repository's root:
 
