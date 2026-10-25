@@ -1,0 +1,106 @@
+{
+  "HongHu": [
+    {
+      "name": "full",
+      "fraction": 1.0,
+      "repeat": -1,
+      "sha256": "08b7a5efba9f3a04aef2f2cacac0023bf0f844cbf644ca01d5a9ca0bd93c347c"
+    },
+    {
+      "name": "keep80_r1",
+      "fraction": 0.8,
+      "repeat": 1,
+      "sha256": "907ce13f695a89aab74124b8c9feabaff19fa6476169fb4d14a4619a4ce6ab0a"
+    },
+    {
+      "name": "keep60_r1",
+      "fraction": 0.6,
+      "repeat": 1,
+      "sha256": "c6923b31d432f5288ddc63ed6eb647acd931f5c11d9d60da2dc57f267408ad6c"
+    },
+    {
+      "name": "keep40_r1",
+      "fraction": 0.4,
+      "repeat": 1,
+      "sha256": "4a5f08c99e75f2d97904af783481ee81492c140773d6b6c99fb48770b85f0000"
+    },
+    {
+      "name": "keep20_r1",
+      "fraction": 0.2,
+      "repeat": 1,
+      "sha256": "7669810ddfbcb544423b9f649f685bfdb29e8581948a17c445af7a58cd534f07",
+      "retained_bands": 54
+    },
+    {
+      "name": "keep10_r1",
+      "fraction": 0.1,
+      "repeat": 1,
+      "sha256": "a77c025b74796153001de3ef94b82fb46d2750e820139d6424f97f1dfd5bc0b7",
+      "retained_bands": 27
+    },
+    {
+      "name": "keep80_r2",
+      "fraction": 0.8,
+      "repeat": 2,
+      "sha256": "9d38926ea1ff9a743e06ed3cdf358d7dd983a7a955bdbb2fe1ff6e80f60f7953"
+    },
+    {
+      "name": "keep60_r2",
+      "fraction": 0.6,
+      "repeat": 2,
+      "sha256": "05dde592a5286f2a9829335afaa512f5a133beab3cc3d48a399e1defe6cca305"
+    },
+    {
+      "name": "keep40_r2",
+      "fraction": 0.4,
+      "repeat": 2,
+      "sha256": "1c71fb6a51183ee64b15e90fe29ba5dc6a5071b3b8fb899ff1670564a19d8bff"
+    },
+    {
+      "name": "keep20_r2",
+      "fraction": 0.2,
+      "repeat": 2,
+      "sha256": "26abb40356c5773264af55b35e75e67fc103e64cc4508691c102e984c5ce53bd",
+      "retained_bands": 54
+    },
+    {
+      "name": "keep10_r2",
+      "fraction": 0.1,
+      "repeat": 2,
+      "sha256": "f0414025d920ae38ccd0fb0159a0748e3b59657eeea25dcc8811efdc27889f7c",
+      "retained_bands": 27
+    },
+    {
+      "name": "keep80_r3",
+      "fraction": 0.8,
+      "repeat": 3,
+      "sha256": "ce23f8133e8d5c99caff935849f0c5760593920a42d10788a1f8d3fb6e37617b"
+    },
+    {
+      "name": "keep60_r3",
+      "fraction": 0.6,
+      "repeat": 3,
+      "sha256": "54ff6d31105dbde7a40ac548a54794b40c944f979cf63fadcfe2eeeea1bbe0e9"
+    },
+    {
+      "name": "keep40_r3",
+      "fraction": 0.4,
+      "repeat": 3,
+      "sha256": "008b7383529825e69fc1016a5947b2f36f10049f1b759590f591331927789c62"
+    },
+    {
+      "name": "keep20_r3",
+      "fraction": 0.2,
+      "repeat": 3,
+      "sha256": "d0d52f60da3fd8c1f4f683926f714d9ee644cc23d3c3eca28859d5cbb41d06f3",
+      "retained_bands": 54
+    },
+    {
+      "name": "keep10_r3",
+      "fraction": 0.1,
+      "repeat": 3,
+      "sha256": "094a68b3d85e8db5d2bf0681b6170dc0961314faf3a1e0b5286af01134869cb5",
+      "retained_bands": 27
+    }
+  ]
+}

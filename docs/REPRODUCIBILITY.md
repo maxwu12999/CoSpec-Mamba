@@ -116,3 +116,13 @@ train/test continuation. These implementation checks do not rerun the formal
 now included in `data/reference/paper_reference_artifacts.zip`, with checksums
 and provenance. Their hashes match the archived paper reference identities;
 see `DATA.md` for reconstruction of the image caches from the original scenes.
+
+## Recorded main and window result release
+
+The original per-case, per-seed and aggregate CSV files from the completed
+main and window archives are now included. Compact protocol, case and run
+identities retain source/model/mask checks and numerical-recovery metadata.
+`tools/summarize_paper_results.py` rebuilds ten v18 manuscript tables, all 388
+numeric cells of which were checked against the document. The 12 reused
+window parent snapshots are verified against the main archive and are not
+counted again. See `RESULTS.md` for provenance and table mappings.

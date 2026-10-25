@@ -1,0 +1,136 @@
+{
+  "version": "cospec_window_lr001_v1",
+  "source_sha256": "08720cb5be7a19b6a315f6761e73537107d46012d4906b7b42c8e9f5805866ef",
+  "scope": "formal",
+  "train": {
+    "epochs": 100,
+    "batch": 32,
+    "eval_batch": 128,
+    "lr": 0.001,
+    "lr_policy": "constant",
+    "optimizer": "Adam",
+    "weight_decay": 0.0,
+    "clip": 15.0,
+    "two_view_ce": true,
+    "min_keep": 0.6,
+    "max_keep": 0.9
+  },
+  "backend": {
+    "suite": "cuda",
+    "external": "cuda_fused"
+  },
+  "protocol_id": "c323a9f07884056b21fcb6abb26cfc87feca3e3d65dc09ee93da71d41e148b0c",
+  "runtime_source_sha256": "08720cb5be7a19b6a315f6761e73537107d46012d4906b7b42c8e9f5805866ef",
+  "parent_protocol_id": "3812432c7c2e0e1263921712ca2606756c1fe826a2e0a2c7d59271fd815bf9b4",
+  "jobs": [
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 1,
+      "patch": 7,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 2,
+      "patch": 7,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 3,
+      "patch": 7,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 1,
+      "patch": 7,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 2,
+      "patch": 7,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 3,
+      "patch": 7,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 1,
+      "patch": 11,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 2,
+      "patch": 11,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 3,
+      "patch": 11,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 1,
+      "patch": 11,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 2,
+      "patch": 11,
+      "group": "window_rerun"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 3,
+      "patch": 11,
+      "group": "window_rerun"
+    }
+  ],
+  "data": {
+    "HongHu": {
+      "shape": [
+        940,
+        475,
+        270
+      ],
+      "classes": 22,
+      "train_count": 2200,
+      "test_count": 384493,
+      "data_id": "d0b7b892821c8db41f0825f2ddb6c6d5384be77f3ac5376ec2468a24e29c1770",
+      "cache_sha256": {
+        "cube.npy": "e855e82fa8c719d06c0b7a7549df22eacc9c6cb5c5360382345c23c3fce85ed4",
+        "tr.npy": "003805b3b835c4b85d2a527a7f2bcecc77ebf4f3d40ae89553ec2d6d6be021f8",
+        "te.npy": "bc3d8dfa6d8996cb95ae1358ec8ee83c2692f0530cb2ca587e33961a9c6f140c",
+        "wave.npy": "8e7d186f9f915c0472b6a214945c90e5c9479ba25f9905a921147f848bf5b124",
+        "stats.npz": "fd5dee20e5eeab44e6f197435650f458c2af1d5edd5d92db5758a9883f612fe4"
+      },
+      "normalization": {
+        "global_mean": 1.1480976172630482,
+        "global_scale": 0.9313916799481701,
+        "fit_on": "TR center spectra only"
+      }
+    }
+  }
+}

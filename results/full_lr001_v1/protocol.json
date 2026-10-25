@@ -1,0 +1,1659 @@
+{
+  "version": "cospec_full_lr001_v1",
+  "source_sha256": "40a0f0ccaa744c3d0c748caacda4a53f0718d6c3a4a0429a26d70ff9e1c2f841",
+  "scope": "formal",
+  "train": {
+    "epochs": 100,
+    "batch": 32,
+    "eval_batch": 128,
+    "lr": 0.001,
+    "lr_policy": "constant",
+    "optimizer": "Adam",
+    "weight_decay": 0.0,
+    "clip": 15.0,
+    "two_view_ce": true,
+    "min_keep": 0.6,
+    "max_keep": 0.9
+  },
+  "backend": {
+    "suite": "cuda",
+    "external": "cuda_fused"
+  },
+  "protocol_id": "3812432c7c2e0e1263921712ca2606756c1fe826a2e0a2c7d59271fd815bf9b4",
+  "runtime_source_sha256": "40a0f0ccaa744c3d0c748caacda4a53f0718d6c3a4a0429a26d70ff9e1c2f841",
+  "jobs": [
+    {
+      "dataset": "HongHu",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "C",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "C",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "C",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_structure",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_structure",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_structure",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_row",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_row",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_row",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_raster4",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_raster4",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_raster4",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_random4",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_random4",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D_random4",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "C",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "C",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "C",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_structure",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_structure",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_structure",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_row",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_row",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_row",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_raster4",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_raster4",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_raster4",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_random4",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_random4",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "D_random4",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Houston",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "ConvMamba_aug",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "ConvMamba_aug",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "ConvMamba_aug",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "B",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "B",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "B",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "D",
+      "seed": 1,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "D",
+      "seed": 2,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "D",
+      "seed": 3,
+      "patch": 15,
+      "group": "suite99"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HanChuan",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "PaviaU",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Houston",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "IndianPines",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "HybridSN",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "HybridSN",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "HybridSN",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "A2S2K",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "A2S2K",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "A2S2K",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "SQSFormer",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "SQSFormer",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "SQSFormer",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "GSCViT",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "GSCViT",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "GSCViT",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 1,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 1,
+      "patch": 9,
+      "group": "window"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 2,
+      "patch": 9,
+      "group": "window"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "B",
+      "seed": 3,
+      "patch": 9,
+      "group": "window"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 1,
+      "patch": 9,
+      "group": "window"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 2,
+      "patch": 9,
+      "group": "window"
+    },
+    {
+      "dataset": "HongHu",
+      "model": "D",
+      "seed": 3,
+      "patch": 9,
+      "group": "window"
+    }
+  ],
+  "data": {
+    "HongHu": {
+      "shape": [
+        940,
+        475,
+        270
+      ],
+      "classes": 22,
+      "train_count": 2200,
+      "test_count": 384493,
+      "data_id": "d0b7b892821c8db41f0825f2ddb6c6d5384be77f3ac5376ec2468a24e29c1770",
+      "cache_sha256": {
+        "cube.npy": "e855e82fa8c719d06c0b7a7549df22eacc9c6cb5c5360382345c23c3fce85ed4",
+        "tr.npy": "003805b3b835c4b85d2a527a7f2bcecc77ebf4f3d40ae89553ec2d6d6be021f8",
+        "te.npy": "bc3d8dfa6d8996cb95ae1358ec8ee83c2692f0530cb2ca587e33961a9c6f140c",
+        "wave.npy": "8e7d186f9f915c0472b6a214945c90e5c9479ba25f9905a921147f848bf5b124",
+        "stats.npz": "fd5dee20e5eeab44e6f197435650f458c2af1d5edd5d92db5758a9883f612fe4"
+      },
+      "normalization": {
+        "global_mean": 1.1480976172630482,
+        "global_scale": 0.9313916799481701,
+        "fit_on": "TR center spectra only"
+      }
+    },
+    "PaviaU": {
+      "shape": [
+        610,
+        340,
+        103
+      ],
+      "classes": 9,
+      "train_count": 900,
+      "test_count": 41876,
+      "data_id": "2166e717c7d95d1fee0ae7948c22f86a2cf3e587d2665f489bb67c21ddd294f8",
+      "cache_sha256": {
+        "cube.npy": "8ec31bef1491c568350030ce2a4f308453f79a359fa74149e332d983e292e110",
+        "tr.npy": "fcb761346c5e8cd763197ec2457b55afa9f21f2eb3135c1b16b2a20c49f13623",
+        "te.npy": "5526051c8a62f030442952b25ce64329b5584f6ecd1dd5338bb21df537e7cae8",
+        "wave.npy": "2e76fd9e06d310aae790285f344f41c42b145e13bc352572f998c3420943a90b",
+        "stats.npz": "fb3a6ec7017e69946b4d872827da848aa7950e7f6495366cce7a45cd4a08ad4b"
+      },
+      "normalization": {
+        "global_mean": 1520.859773462783,
+        "global_scale": 1032.2891696599088,
+        "fit_on": "TR center spectra only"
+      }
+    },
+    "HanChuan": {
+      "shape": [
+        1217,
+        303,
+        274
+      ],
+      "classes": 16,
+      "train_count": 1600,
+      "test_count": 255930,
+      "data_id": "822d9fe2aaecb97bce0186acf25e73171dab3fd9a0dcc889ba4d0daa02f48ab6",
+      "cache_sha256": {
+        "cube.npy": "88fec155842fb52f144238e50cad482e42729825b992dd78b36bdf5aec32f366",
+        "tr.npy": "2a6d0dcdcfba0de84d741db5c1e9695c225320d95448751464d84d66e62a01e1",
+        "te.npy": "c2f478d2bc8d47148630f42a3b1e2093726612f394ecacd352c0b71f17c1ac26",
+        "wave.npy": "1114624602ee1eeca85b222641fdfff18e304a057c8606cb52e322cd2894e58f",
+        "stats.npz": "c6745a3df2c634a9e0f7062cd3f10d2415bf48e898189a61592c87cd9d963fef"
+      },
+      "normalization": {
+        "global_mean": 1.7763316303629677,
+        "global_scale": 2.4164239214874956,
+        "fit_on": "TR center spectra only"
+      }
+    },
+    "LongKou": {
+      "shape": [
+        550,
+        400,
+        270
+      ],
+      "classes": 9,
+      "train_count": 900,
+      "test_count": 203642,
+      "data_id": "867f2ff313c5dd7efe5d7a597c5b1237a7677de6e3140a36a0a817df74156ac5",
+      "cache_sha256": {
+        "cube.npy": "4e7ca2188703360a249e7f4036755d99f5b954edd21627c02575c8e47e38a8cf",
+        "tr.npy": "6c3ed9c23399fac57772167a01b8ac7b374e6652845c7737fbb84593340e3483",
+        "te.npy": "ae7b47f2b7d657029b2ef2763c18cced2c858e9281fc65fa35fa73bb7a08b3e2",
+        "wave.npy": "8e7d186f9f915c0472b6a214945c90e5c9479ba25f9905a921147f848bf5b124",
+        "stats.npz": "85266ddf8f13085dc73ebb77055773a0fe69668fe24044b35849fc7fa6db5738"
+      },
+      "normalization": {
+        "global_mean": 5.667663704449426,
+        "global_scale": 4.218410094149883,
+        "fit_on": "TR center spectra only"
+      }
+    },
+    "Houston": {
+      "shape": [
+        349,
+        1905,
+        144
+      ],
+      "classes": 15,
+      "train_count": 1500,
+      "test_count": 13529,
+      "data_id": "bd7be5cb825e482da0ed9c487b05fb456d2bc9b3e4835c7796c80b9f4814d00c",
+      "cache_sha256": {
+        "cube.npy": "dfee8da0c6a1873ff2f535176f430161c9ab48059488493c5d8c414fde29dc3f",
+        "tr.npy": "9449fab4520028c392462c5e0ffa10c75ebf7244503961e5be57429297508ce3",
+        "te.npy": "217e4c949914c9ceafbd637af0201dd2b120ab4121640d9c78ac998c9470b4e5",
+        "wave.npy": "8b45c9d1529b2fbe7f432008a25c7cea00529da583ede3c02ac3c6ed657976f5",
+        "stats.npz": "9b71351c9eb387b6060a833607e0cdc62042c472cbff3a58c7a06a7207d0497c"
+      },
+      "normalization": {
+        "global_mean": 5210.656865740741,
+        "global_scale": 3689.165043528568,
+        "fit_on": "TR center spectra only"
+      }
+    },
+    "IndianPines": {
+      "shape": [
+        145,
+        145,
+        200
+      ],
+      "classes": 16,
+      "train_count": 1293,
+      "test_count": 8956,
+      "data_id": "823facd6f357a59a81cd12ad9e6f91aa0c208b95a06294eb43b722c527b54207",
+      "cache_sha256": {
+        "cube.npy": "e1f1f8193e275c514275a61fe222c2a14b25472f2b206b4129b823c24d92e0b4",
+        "tr.npy": "4874eb5a220486400061f3018fcdc65170efb0bc3d13c88dbb24df06c32b52fc",
+        "te.npy": "0706a87d1de65413cbb4e025d6fc29414d499f1110623dc404d51dd2d5a34eea",
+        "wave.npy": "f2475ee3ac902bf6094c26aa181cdba1baa7ff6d6cf79ca1502b5b2471b05d9b",
+        "stats.npz": "132042ef52a9aa464c4a7ca958b506ea3910e94e61153e55c74b294fa8264300"
+      },
+      "normalization": {
+        "global_mean": 2681.169957463264,
+        "global_scale": 1587.3079812756876,
+        "fit_on": "TR center spectra only"
+      }
+    },
+    "Salinas": {
+      "shape": [
+        512,
+        217,
+        204
+      ],
+      "classes": 16,
+      "train_count": 1600,
+      "test_count": 52529,
+      "data_id": "6ffb30008a4d581ea99ff5de3c1a0f8f1c9243edead80e240f1c8f77c962938b",
+      "cache_sha256": {
+        "cube.npy": "4d40fca3d7add2383f842ed9be5f311620619d5bae8fada46996d7e0ab15e59e",
+        "tr.npy": "7c2e16c088461dc3b25ca2ad5ae4928edb81b6d30f7d9fec4d51c697faff755f",
+        "te.npy": "d824be3ae820097746f9b67b4a5526ffc2dae5c07fe28c7b6c0c30d34b346cd1",
+        "wave.npy": "c417df65c90c4554e6a8627d6bf44a8402e2698b5025188c1f463b32cd88975d",
+        "stats.npz": "c560018c7e001084fbcea3de2fd4fcd0f989b4ec464199dea1f5a0c1b190e8c0"
+      },
+      "normalization": {
+        "global_mean": 1216.6900949754902,
+        "global_scale": 1213.960751032132,
+        "fit_on": "TR center spectra only"
+      }
+    }
+  }
+}

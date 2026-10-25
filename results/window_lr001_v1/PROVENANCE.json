@@ -1,0 +1,26 @@
+{
+  "source_archive": "COSPEC_WINDOW_LR001_V1_results.zip",
+  "source_archive_sha256": "4b4de177a271a72588cd7427c6d0e5e43d96a289d3cb2670cafc61329731eb7b",
+  "new_training_runs": 12,
+  "result_files": 24,
+  "reused_main_runs": 12,
+  "exported_per_case_metric_records": 192,
+  "epochs_per_run": 100,
+  "original_csv_files": {
+    "metrics_by_seed.csv": "50d57847df919baac565f939e4be7fbd6ca7fd3ff0196f93a009a4a07bbba174",
+    "metrics_raw.csv": "58bef9ec9dd64cc7df89837e9baad30256d0f98f962b20156411a7170bfc6ed0",
+    "summary.csv": "ccc9c1b8d882972766081c43da6a6aedfa97034935085f05cf9a2b0e67cff839",
+    "table_4_3.csv": "3dee991a60ee64ecdb42dea503ab5732e9a89ffe4e1b38e75bb386effea50859",
+    "window_comparison.csv": "631e03dbbffd681b81714efabf87c5f79ce806f96d33a387fa13de52ab34969c",
+    "window_comparison_by_seed.csv": "8acf78d05ae893122d57b1008f465ee03c81e8e77598ab7d1cd01eec6acf5d08"
+  },
+  "checks": [
+    "All runs complete at epoch 100",
+    "OA recomputed from confusion counts",
+    "CSV metrics match original result JSON",
+    "Within-seed CSV means verified",
+    "Mask/model/recipe identities verified",
+    "Reused parent run metrics and identities identical"
+  ],
+  "runtime_numerical_repairs": []
+}

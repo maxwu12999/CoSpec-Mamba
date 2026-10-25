@@ -1,0 +1,38 @@
+{
+  "source_archive": "COSPEC_FULL_LR001_V1_results (1).zip",
+  "source_archive_sha256": "9399e438932b2df960e9ed12d250ed0fa93ad2822cecbe9c4684904670d7b06d",
+  "new_training_runs": 210,
+  "result_files": 210,
+  "reused_main_runs": 0,
+  "exported_per_case_metric_records": 3360,
+  "epochs_per_run": 100,
+  "original_csv_files": {
+    "metrics_by_seed.csv": "0ef96e6ba9c7e45c6ae1a50787120e086ee26e7204abb48327d9e80483dbcac6",
+    "metrics_raw.csv": "60da51397fbbd46a9dd622ffd7285a1a84a379c6e57d93b8b77a10c996c042b8",
+    "summary.csv": "b551b569cd599eb562c479bb8bcb8eda96fe4fddfbe8805cfb8fc4ccb91d9ac7"
+  },
+  "checks": [
+    "All runs complete at epoch 100",
+    "OA recomputed from confusion counts",
+    "CSV metrics match original result JSON",
+    "Within-seed CSV means verified",
+    "Mask/model/recipe identities verified",
+    "Reused parent run metrics and identities identical"
+  ],
+  "runtime_numerical_repairs": [
+    {
+      "dataset": "LongKou",
+      "model": "MiM_v2",
+      "seed": 2,
+      "patch": 15,
+      "group": "external105"
+    },
+    {
+      "dataset": "Salinas",
+      "model": "MiM_v2",
+      "seed": 3,
+      "patch": 15,
+      "group": "external105"
+    }
+  ]
+}

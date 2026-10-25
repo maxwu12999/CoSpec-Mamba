@@ -1,0 +1,10 @@
+{
+  "main_training_runs": 210,
+  "new_window_training_runs": 12,
+  "unique_training_runs": 222,
+  "evaluated_conditions": 3552,
+  "epochs": 100,
+  "standard_deviation_ddof": 1,
+  "aggregation": "Average masks within each seed, then mean/sample SD across three seeds; paired differences computed before across-seed aggregation.",
+  "separate_internal_batch": "results/internal_v1 is not merged into the original main comparisons"
+}

@@ -94,6 +94,23 @@ The table export contains full/80%/60%/40% results. The 20%/10% evaluations rema
 in the underlying records. This independently retrained batch is separate from
 the older full-queue B/D results.
 
+## Recorded results and manuscript tables
+
+The original main and window CSV exports are available under
+`results/full_lr001_v1/` and `results/window_lr001_v1/`. They cover 222 distinct
+completed training runs and 3552 evaluated conditions. Window snapshots reused
+from the main batch are tracked separately and are not counted twice.
+
+```bash
+# Rebuild the main, window, scan and encoding/augmentation tables without training.
+python tools/summarize_paper_results.py
+```
+
+The generated ten tables match all 388 numeric cells in manuscript v18.
+See [docs/RESULTS.md](docs/RESULTS.md) for table mappings, source provenance,
+aggregation details and the two explicitly recorded MiM numerical recoveries.
+The independent 30-run internal batch remains separate.
+
 ## Restore external model sources
 
 Third-party sources are fetched from pinned upstream commits and checked against

@@ -1,0 +1,57 @@
+{
+  "manuscript": "CoSpec-Mamba v18",
+  "tables_checked": 10,
+  "numeric_cells_matched": 388,
+  "tables": [
+    {
+      "file": "table3_window.csv",
+      "manuscript_table_index": 2,
+      "verified_numeric_cells": 32
+    },
+    {
+      "file": "table4_encoding_augmentation.csv",
+      "manuscript_table_index": 3,
+      "verified_numeric_cells": 32
+    },
+    {
+      "file": "table5_paired_d_minus_b.csv",
+      "manuscript_table_index": 4,
+      "verified_numeric_cells": 32
+    },
+    {
+      "file": "table7_scan.csv",
+      "manuscript_table_index": 6,
+      "verified_numeric_cells": 40
+    },
+    {
+      "file": "table8a_full.csv",
+      "manuscript_table_index": 7,
+      "verified_numeric_cells": 56
+    },
+    {
+      "file": "table8b_keep80.csv",
+      "manuscript_table_index": 8,
+      "verified_numeric_cells": 56
+    },
+    {
+      "file": "table8c_keep60.csv",
+      "manuscript_table_index": 9,
+      "verified_numeric_cells": 56
+    },
+    {
+      "file": "table8d_keep40.csv",
+      "manuscript_table_index": 10,
+      "verified_numeric_cells": 56
+    },
+    {
+      "file": "table8e_low_retention.csv",
+      "manuscript_table_index": 11,
+      "verified_numeric_cells": 12
+    },
+    {
+      "file": "table12_bd_overall.csv",
+      "manuscript_table_index": 15,
+      "verified_numeric_cells": 16
+    }
+  ]
+}
